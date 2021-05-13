@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	right: 0;
+	top: 0;
+}
+
+header {
+	background-color: rgb(223, 85, 30);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	padding: 10px 20px;
+	border-bottom: 2px solid brown;
+	cursor: default;
+}
+
+h1 {
+	margin: 0;
+}
+
+#slogan {
+	font-family: cursive;
+	font-size: 15px;
+}
+
+#logo {
+	width: 90px;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 310px;
+}
+
+#menu-fechado {
+	display: inline-block;
+	position: absolute;
+	left: 95%;
+	top: 20px;
+	cursor: pointer;
+}
+
+#carrinho {
+	width: 70px;
+	height: auto;
+}
